@@ -163,7 +163,7 @@ function HomePage() {
       <section className="ct-hero">
         <div>
           <div className="ct-eyebrow">A civic record, held in common</div>
-          <h1 className="ct-display">THE COMPLAINT<br /><span style={{ color: '#d9b979' }}>THAT CANNOT</span><br />DISAPPEAR.</h1>
+          <h1 className="ct-display">Report a problem.<br /><span className="ct-hero-highlight">Watch it get fixed</span></h1>
           <p className="ct-hero-copy">Report civic problems, track action, and verify resolution. Civic Trace gives every issue a clear public path from first signal to final fix.</p>
           <div className="ct-actions">
             <Link href="/report" className="ct-btn ct-btn-gold" data-testid="link-hero-report">Report an issue <ArrowRight size={15} /></Link>
